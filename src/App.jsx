@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img src="/src/assets/profile-pic.png" alt="profile-pic" />
+        <img src="/src/assets/profile-pic.jpeg" alt="profile-pic" />
       </div>
       <div className="card-header">
         <span className="card-header-name">Sohrab Zareei</span>
