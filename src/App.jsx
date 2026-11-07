@@ -1,11 +1,18 @@
 import './App.css'
+import profilePic from './assets/profile-pic.jpeg'
+import linkedinIcon from './assets/linkedin.svg'
+import twitterIcon from './assets/twitter.svg'
+import githubIcon from './assets/github.svg'
+import facebookIcon from './assets/facebook.svg'
+import instagramIcon from './assets/instagram.svg'
+import mailIcon from './assets/mail.svg'
 
 
 export default function App() {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img src="/src/assets/profile-pic.jpeg" alt="profile-pic" />
+        <img src={profilePic} alt="profile-pic" />
       </div>
       <div className="card-header">
         <span className="card-header-name">Sohrab Zareei</span>
@@ -13,13 +20,13 @@ export default function App() {
         <div className="card-header-contact">
           <div className="card-header-button card-header-button-email">
             <a href="#">
-              <img src="/src/assets/mail.svg" alt="email-icon"/>
+              <img src={mailIcon} alt="email-icon"/>
               Email
             </a>
           </div>
           <div className="card-header-button card-header-button-linkedin">
             <a href="https://www.linkedin.com/in/m-zareei/">
-              <img src="/src/assets/linkedin.svg" alt="linkedin-icon"/>
+              <img src={linkedinIcon} alt="linkedin-icon"/>
               LinkedIn
             </a>
           </div>
@@ -42,22 +49,22 @@ export default function App() {
       <div className="card-footer">
         <div className="card-footer-button">
           <a href="#">
-            <img src="/src/assets/twitter.svg" alt="twitter-icon"/>
+            <img src={twitterIcon} alt="twitter-icon"/>
           </a>
         </div>
         <div className="card-footer-button">
           <a href="#">
-            <img src="/src/assets/facebook.svg" alt="facebook-icon"/>
+            <img src={facebookIcon} alt="facebook-icon"/>
           </a>
         </div>
         <div className="card-footer-button">
           <a href="#">
-            <img src="/src/assets/instagram.svg" alt="instagram-icon"/>
+            <img src={instagramIcon} alt="instagram-icon"/>
           </a>
         </div>
         <div className="card-footer-button">
           <a href="#">
-            <img src="/src/assets/github.svg" alt="github-icon"/>
+            <img src={githubIcon} alt="github-icon"/>
           </a>
         </div>
       </div>
