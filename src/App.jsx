@@ -19,7 +19,7 @@ export default function App() {
         <span className="card-header-title">Frontend Developer</span>
         <div className="card-header-contact">
           <div className="card-header-button card-header-button-email">
-            <a href="#">
+            <a href="mailto:mohammadzareei36@gmail.com">
               <img src={mailIcon} alt="email-icon"/>
               Email
             </a>
